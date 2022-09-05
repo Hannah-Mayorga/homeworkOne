@@ -58,7 +58,7 @@ footer .footer-copyright {
   font-style: italic;
 }
 
-header {
+.home-header {
   max-width: 1580px;
   height: 600px;
   background-image: url(/images/home/ilseyhvw4p_actual.jpg);
@@ -66,44 +66,44 @@ header {
   background-position: center;
   background-repeat: no-repeat;
 }
-header .header_title {
+.home-header .header_title {
   margin: 0 auto;
   text-align: center;
   position: relative;
   top: 152px;
 }
-header .header_title .h1--white {
+.home-header .header_title .h1--white {
   color: white;
 }
-header .header_title .h1--large {
+.home-header .header_title .h1--large {
   font-size: 60px;
 }
-header .header_title .h2--white {
+.home-header .header_title .h2--white {
   color: white;
 }
-header .header_title .h2--italics {
+.home-header .header_title .h2--italics {
   font-style: italic;
 }
-header .header_title .h2--large {
+.home-header .header_title .h2--large {
   font-size: 30px;
 }
-header .header_title .h3--white {
+.home-header .header_title .h3--white {
   color: white;
 }
-header .header_btn {
+.home-header .header_btn {
   text-align: center;
   margin: 0 auto;
   position: relative;
   top: 28px;
 }
-header .header_btn h3 {
+.home-header .header_btn h3 {
   padding: 10px;
 }
-header .btn--big {
+.home-header .btn--big {
   width: 121px;
   height: 40px;
 }
-header .btn--red {
+.home-header .btn--red {
   background-color: maroon;
 }
 
@@ -169,6 +169,84 @@ header .btn--red {
 .home_stats .home-stats-italics {
   font-style: italic;
   font-weight: lighter;
+}
+
+.content-pg-covers {
+  max-width: 1580px;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.content-pg-covers-about {
+  background-image: url(/images/about/about-banner-desktop.jpg);
+}
+
+.content-pg-covers-admission {
+  background-image: url(/images/admission/admissions-banner-desktop.jpg);
+}
+
+.content-pg-covers-academics {
+  background-image: url(/images/academics/academics-banner-desktop.jpg);
+}
+
+.content-pg-info {
+  min-height: 100%;
+  width: 50%;
+  margin: 0 auto;
+  padding: 15px;
+}
+.content-pg-info .content-pg-name {
+  font-size: 15px;
+}
+.content-pg-info .content-pg-top {
+  padding: 30px;
+}
+.content-pg-info .content-pg-sub {
+  padding: 30px;
+}
+.content-pg-info .content-pg-title {
+  font-size: 40px;
+}
+.content-pg-info .content-pg-txt {
+  font-size: 15px;
+  word-spacing: 5px;
+}
+
+.content-banner-full {
+  max-width: 100%;
+  height: 350px;
+  background-color: maroon;
+}
+.content-banner-full .content-quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  padding: 100px;
+}
+.content-banner-full .content-quote-name {
+  margin: 0 auto;
+  color: white;
+  font-size: 30px;
+  font-style: italic;
+  position: relative;
+  left: 700px;
+  bottom: 60px;
+}
+
+.content-pg-extra {
+  min-height: 50%;
+  width: 50%;
+  margin: 0 auto;
+  padding: 15px;
+}
+.content-pg-extra img {
+  width: 100%;
+  height: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */
