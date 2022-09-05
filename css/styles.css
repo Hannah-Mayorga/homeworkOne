@@ -61,7 +61,7 @@ footer .footer-copyright {
 .home-header {
   max-width: 1580px;
   height: 600px;
-  background-image: url(/images/home/ilseyhvw4p_actual.jpg);
+  background-image: url(../images/home/ilseyhvw4p_actual.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -180,15 +180,15 @@ footer .footer-copyright {
 }
 
 .content-pg-covers-about {
-  background-image: url(/images/about/about-banner-desktop.jpg);
+  background-image: url(../images/about/about-banner-desktop.jpg);
 }
 
 .content-pg-covers-admission {
-  background-image: url(/images/admission/admissions-banner-desktop.jpg);
+  background-image: url(../images/admission/admissions-banner-desktop.jpg);
 }
 
 .content-pg-covers-academics {
-  background-image: url(/images/academics/academics-banner-desktop.jpg);
+  background-image: url(../images/academics/academics-banner-desktop.jpg);
 }
 
 .content-pg-info {
