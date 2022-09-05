@@ -1,0 +1,42 @@
+.home_content {
+    min-height: 50%;
+    background-color: #f7f7f8;
+    margin: 0 auto;
+   // text-align: center;
+   // align-items: center;
+    .header_row {
+        display: flex;
+    }
+    .header_col {
+        padding: 15px;
+        //background-color: red;
+    }
+    .header_content_img {
+        width: 500px;
+        height: 300px;
+    }
+    .header_content_title {
+        font-size: 40px;
+    }
+    .header_content_type {
+        font-size: 15px;
+    }
+    .content_btn {
+        text-align: center;
+        margin: 0 auto;
+        position: relative;
+        top: 65px;
+        color: white;
+        font-weight: bold;
+        h3 {
+            padding: 5px;
+        }
+    }
+    .btn--big {
+        width: 170px;
+        height: 35px;
+    }
+    .btn--red {
+        background-color: maroon;
+    }
+}

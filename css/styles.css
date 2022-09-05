@@ -41,6 +41,23 @@ nav .nav_links a {
   color: black;
 }
 
+footer {
+  min-height: 25%;
+  background-color: maroon;
+  color: white;
+  font-weight: bold;
+  display: flex;
+}
+footer .footer-address {
+  padding: 50px;
+  font-size: 25px;
+}
+footer .footer-copyright {
+  padding: 5px;
+  font-size: 15px;
+  font-style: italic;
+}
+
 header {
   max-width: 1580px;
   height: 600px;
@@ -87,7 +104,71 @@ header .btn--big {
   height: 40px;
 }
 header .btn--red {
-  background-color: red;
+  background-color: maroon;
+}
+
+.home_content {
+  min-height: 50%;
+  background-color: #f7f7f8;
+  margin: 0 auto;
+}
+.home_content .header_row {
+  display: flex;
+}
+.home_content .header_col {
+  padding: 15px;
+}
+.home_content .header_content_img {
+  width: 500px;
+  height: 300px;
+}
+.home_content .header_content_title {
+  font-size: 40px;
+}
+.home_content .header_content_type {
+  font-size: 15px;
+}
+.home_content .content_btn {
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  top: 65px;
+  color: white;
+  font-weight: bold;
+}
+.home_content .content_btn h3 {
+  padding: 5px;
+}
+.home_content .btn--big {
+  width: 170px;
+  height: 35px;
+}
+.home_content .btn--red {
+  background-color: maroon;
+}
+
+.home_stats {
+  min-height: 75%;
+}
+.home_stats .home_row {
+  display: flex;
+}
+.home_stats .home_col {
+  padding: 30px;
+}
+.home_stats .home-stats-title {
+  font-weight: bolder;
+  font-size: 30px;
+}
+.home_stats .home-stats-red {
+  color: maroon;
+}
+.home_stats .home-stats-big {
+  font-size: 60px;
+}
+.home_stats .home-stats-italics {
+  font-style: italic;
+  font-weight: lighter;
 }
 
 /*# sourceMappingURL=styles.css.map */

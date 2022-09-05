@@ -1,0 +1,25 @@
+.home_stats {
+   // background-color: green;
+    min-height: 75%;
+    .home_row {
+        display: flex;
+    }
+    .home_col {
+        padding: 30px;
+    }
+    .home-stats-title {
+        font-weight: bolder;
+        font-size: 30px;
+    }
+    .home-stats-red {
+        color: maroon;
+    }
+    .home-stats-big {
+        font-size: 60px;
+    }
+    .home-stats-italics{
+        font-style: italic;
+        font-weight: lighter;
+    }
+   
+}
