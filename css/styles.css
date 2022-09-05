@@ -12,4 +12,82 @@ h1, h2, h3, h4, h5, h6, p {
   margin-bottom: 16px;
 }
 
+nav {
+  height: 150px;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .nav_logo {
+  height: 100%;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+nav .nav_logo img {
+  height: 80%;
+}
+nav .nav_links {
+  margin-right: 20px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: space-evenly;
+}
+nav .nav_links a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  max-width: 1580px;
+  height: 600px;
+  background-image: url(/images/home/ilseyhvw4p_actual.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+header .header_title {
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 152px;
+}
+header .header_title .h1--white {
+  color: white;
+}
+header .header_title .h1--large {
+  font-size: 60px;
+}
+header .header_title .h2--white {
+  color: white;
+}
+header .header_title .h2--italics {
+  font-style: italic;
+}
+header .header_title .h2--large {
+  font-size: 30px;
+}
+header .header_title .h3--white {
+  color: white;
+}
+header .header_btn {
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  top: 28px;
+}
+header .header_btn h3 {
+  padding: 10px;
+}
+header .btn--big {
+  width: 121px;
+  height: 40px;
+}
+header .btn--red {
+  background-color: red;
+}
+
 /*# sourceMappingURL=styles.css.map */

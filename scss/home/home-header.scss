@@ -1,0 +1,48 @@
+header {
+    max-width: 1580px;
+    height: 600px;
+    background-image: url(/images/home/ilseyhvw4p_actual.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .header_title {
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+        top: 152px;
+        .h1--white {
+            color: white;
+        }
+        .h1--large {
+            font-size: 60px;
+        }
+        .h2--white {
+            color: white;
+        }
+        .h2--italics {
+            font-style: italic;
+        }
+        .h2--large {
+            font-size: 30px;
+        }
+        .h3--white {
+            color: white;
+        }
+    }
+    .header_btn {
+        text-align: center;
+        margin: 0 auto;
+        position: relative;
+        top: 28px;
+        h3 {
+            padding: 10px;
+        }
+    }
+    .btn--big {
+        width: 121px;
+        height: 40px;
+    }
+    .btn--red {
+        background-color: red;
+    }
+}

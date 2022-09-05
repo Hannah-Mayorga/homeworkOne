@@ -1,0 +1,28 @@
+nav {
+    height: 150px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .nav_logo {
+        height: 100%;
+        margin-left: 20px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        img {
+            height: 80%;
+        }
+    }
+    .nav_links {
+        margin-right: 20px;
+        width: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: space-evenly;
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
